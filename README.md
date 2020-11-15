@@ -1,4 +1,4 @@
-# InStockNotifier
+# InStockNotifier-Net
 
 NetCore Console App to alert when a monitored product is in stock.
 Webpage list in config.json can be modified for use with any product (currently tested and functional for Amazon and Newegg products).
