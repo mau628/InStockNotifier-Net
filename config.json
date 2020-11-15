@@ -1,0 +1,31 @@
+[
+  {
+    "url": "https://www.newegg.com/amd-ryzen-9-5900x/p/N82E16819113664",
+    "keyword": "Add to cart",
+    "alert": true,
+    "name": "Newegg Ryzen 5900x",
+    "enabled": false
+  },
+  {
+    "url": "https://www.amazon.com/dp/B08164VTWH",
+    "keyword": "Add to cart",
+    "alert": true,
+    "name": "Amazon Ryzen 5900x",
+    "enabled": false
+  },
+  {
+    "url": "https://www.amazon.com/AMD-Ryzen-3600XT-12-threads-processor/dp/B089WC4VWF/ref=sr_1_1?dchild=1&keywords=ryzen+3600&qid=1605377489&sr=8-1",
+    "keyword": "Add to cart",
+    "alert": true,
+    "name": "Amazon 3600XT",
+    "enabled": true
+  },
+  {
+    "url": "https://www.newegg.com/p/N82E16879261876?Item=N82E16879261876",
+    "keyword": "Add to cart",
+    "alert": true,
+    "name": "NewEgg Dark Souls",
+    "enabled": true
+  }
+
+]
