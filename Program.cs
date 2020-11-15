@@ -118,7 +118,7 @@ namespace InStockNotifier
             {
                 Process.Start(url);
             }
-            catch
+            catch (Exception ex)
             {
                 if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
                 {
@@ -132,6 +132,10 @@ namespace InStockNotifier
                 else if (RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
                 {
                     Process.Start("open", url);
+                }
+                else
+                {
+                    Console.Write($"Cannot launch browser: {ex.Message} => {ex.StackTrace}");
                 }
             }
         }
